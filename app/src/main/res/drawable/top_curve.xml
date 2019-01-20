@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_window_focused="true" android:state_focused="true">
+    <shape>
+        <gradient
+            android:angle="180"
+            android:startColor="#464551"
+            android:endColor="#555362" />
+
+        <corners
+            android:topRightRadius="7dp"
+            android:topLeftRadius="7dp"/>
+
+    </shape>
+</item>
+
+<item >
+<shape>
+    <gradient
+        android:angle="180"
+        android:startColor="#555362"
+        android:endColor="#464551" />
+
+
+    <corners
+        android:topRightRadius="7dp"
+        android:topLeftRadius="7dp" />
+</shape>
+</item>
+
+</selector>
